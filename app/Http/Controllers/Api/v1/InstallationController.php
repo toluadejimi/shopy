@@ -242,9 +242,7 @@ class InstallationController extends Controller
             throw new InstallationException('step_4');
         }
 
-
         EnvUtil::changeEnvVariable('VERSION', InstallationController::$NEED_VERSION);
-
 
         return ['can_next' => true, 'version' => InstallationController::$NEED_VERSION];
 
