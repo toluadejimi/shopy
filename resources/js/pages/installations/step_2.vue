@@ -22,7 +22,7 @@
                                        name="db_username" placeholder="test_username"/>
 
                             <FormInput v-model="step.db_password" :errors="errors" label="Database Password"
-                                       name="db_password" placeholder="test_password"/>
+                                       name="" placeholder="test_password"/>
 
 
                             <p v-if="!step.database_valid" class="fw-medium d-flex align-items-center text-danger">
