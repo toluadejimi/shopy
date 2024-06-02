@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Shopy - Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<!-- Begin page -->
+<div id="wrapper">
+
+    <!-- ============================================================== -->
+    <!-- Start Page Content here -->
+    <!-- ============================================================== -->
+
+    <div class="content-page">
+        <div class="content">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <a href="index.html" class="logo text-center d-none d-md-inline-block mr-2">
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" >
+                        </span>
+                </a>
+
+                <button type="button" class="btn btn-sm btn-dark d-inline-block d-lg-none button-menu-mobile">Menu
+                </button>
+
+                <span class="badge badge-danger float-right">v1.0.0</span>
+            </div>
+            <!-- end Topbar -->
+
+            <!-- Start Content-->
+            <div class="container-fluid">
+
+                <div class="page-wrapper">
+                    <div class="left-sidebar">
+                        <div class="slimscroll-menu">
+                            <div class="list-group list-group-transparent mb-0">
+
+                                    <span class="list-group-item disabled">
+                                        Getting Started
+                                    </span>
+
+                                <a href="index.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-flag-variant-outline"></i>
+                                        </span>Introduction
+                                </a>
+
+
+
+                                <span class="list-group-item disabled">
+                                        Setup
+                                    </span>
+
+                                <a href="setup.html" class="list-group-item list-group-item-action active ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-apps"></i>
+                                        </span>Backend - Laravel
+                                </a>
+
+                                <a href="setup-web.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-web"></i>
+                                        </span>Web - Vue
+                                </a>
+
+
+                                <a href="setup-mobile.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-cellphone"></i>
+                                        </span>App - Flutter
+                                </a>
+
+
+                                <span class="list-group-item disabled">
+                                        Other
+                                    </span>
+
+                                <a href="changelog.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-book-open-page-variant"></i>
+                                        </span>Changelog
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end left-sidebar-->
+
+                    <div class="page-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">checklist</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Prerequisites</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><p><span class="fw-medium">PHP ^8.1</span> <span>(<a
+                                                    href="https://www.php.net/downloads.php" target="_blank">https://www.php.net/downloads.php</a>)</span>
+                                            </p></li>
+                                            <li><p><span class="fw-medium">Composer</span> <span>(<a
+                                                    href="https://getcomposer.org/download/" target="_blank">https://getcomposer.org/download/</a>)</span>
+                                            </p></li>
+                                            <li><p><span class="fw-medium">Laravel 9</span><span>(<a
+                                                    href="https://laravel.com/docs/9.x/installation" target="_blank">https://laravel.com/docs/9.x/installation</a>)</span>
+                                            </p></li>
+                                            <li><p><span class="fw-medium">MySQL</span> <span>(<a
+                                                    href="https://dev.mysql.com/downloads/installer/" target="_blank">https://dev.mysql.com/downloads/installer/</a>)</span>
+                                            </p></li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">database</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Migration - Database</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><p>You need to setup your mysql server</p></li>
+                                            <li><p>Create database. You need this into server installation</p></li>
+                                            <li><p class="text-success">We strongly recommended to use our installation
+                                                panel</p></li>
+                                            <li><a href="/q_a?q=database" class="">Any errors related to database </a>
+                                            </li>
+                                        </ol>
+                                        <p><span class="fw-medium text-muted">Optional: </span>You can find official
+                                            migration at <a href="https://laravel.com/docs/9.x/migrations">Laravel</a>
+                                        </p></div><!----></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">wysiwyg</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Installation</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><p>You need to run <kbd>composer install</kbd> command at laravel root
+                                            </p></li>
+                                            <li><p>If you getting any composer related error then troubleshoot at <a
+                                                    href="/q_a?q=composer" class="">here</a></p></li>
+                                            <li><p>If you can't find .env file then copy it from .env.example <kbd>cp
+                                                .env.example .env</kbd></p></li>
+                                            <li><p>So you need to change .env file permission <kbd> sudo chmod -R 777
+                                                .env</kbd> or <a href="/q_a?q=.env+permission" class="">here</a></p>
+                                            </li>
+                                            <li><p>Link storage to public <kbd> php artisan storage:link</kbd></p></li>
+                                            <li><p>Give access to storage &amp; bootstrap cache <kbd> sudo chmod -R 777
+                                                storage/ bootstrap/cache</kbd> at root of project <a
+                                                    href="/q_a?q=access+storage" class="">any queries?</a></p></li>
+                                            <li><p>Now, generate application key <kbd> php artisan key:generate</kbd> at
+                                                root of project </p></li>
+                                            <li><p>Now, run on installation panel <kbd>https://shopy.getappui.com//installations/step_1</kbd>
+                                                or <span class="text-primary cursor-pointer">here</span></p></li>
+                                        </ul>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">pending_actions</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Queue - Schedule Task
+                                            (Supervisor)</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><p>Run <kbd> sudo apt-get install supervisor</kbd> to install supervisor
+                                                in ubuntu</p></li>
+                                            <li><p>Create <span
+                                                    class="fw-medium text-primary">laravel-worker.conf</span> in <code>/etc/supervisor/conf.d/</code><br>or
+                                                Run <kbd>vi /etc/supervisor/conf.d/laravel-worker.conf</kbd></p></li>
+                                            <li><p><span class="text-primary cursor-pointer">Download</span> this file
+                                                &amp; Copy contains and paste to laravel-worker.conf</p></li>
+                                            <li><p>You need to change project location in this file to your location</p>
+                                            </li>
+                                            <li><p>Run following command to activate supervisor for this file</p>
+                                                <ul>
+                                                    <li><p>sudo supervisorctl reread</p></li>
+                                                    <li><p>sudo supervisorctl update</p></li>
+                                                    <li><p>sudo supervisorctl start laravel-worker:*</p></li>
+                                                    <li><p>sudo supervisorctl status laravel-worker:*</p></li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">memory</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">How to Run (Locally)</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body"><p><span class="fw-medium text-danger">Note: </span> Run all
+                                        command at laravel root project</p>
+                                        <ol>
+                                            <li><p>Local Server <span class="text-muted fw-medium">- Optional</span></p>
+                                            </li>
+                                            <ul>
+                                                <li><p>Run <kbd>php artisan serve</kbd> to serve over your localhost</p>
+                                                </li>
+                                                <li><p>Hit <a href="http://localhost:8000/admin">http://localhost:8000/admin</a>
+                                                    on browser to view admin panel</p></li>
+                                            </ul>
+                                            <li><p>On Your IP <span class="fw-medium text-success">- Recommended</span>
+                                            </p>
+                                                <ul>
+                                                    <li><p>You need to find your local ip (IPv4). You can try a <a
+                                                            href="/q_a?q=ipv4" class="">here</a></p></li>
+                                                    <li><p>Run <kbd>php artisan serve --host=<code>{IP}</code></kbd></p>
+                                                        <p class="text-muted">Example: If your ip is = 192.168.1.74 then
+                                                            you need to run <code>php artisan serve
+                                                                --host=192.168.1.74</code></p></li>
+                                                </ul>
+                                            </li>
+                                            <li><p>Queue - Schedule Task</p>
+                                                <ul>
+                                                    <li><p>Run <kbd> php artisan queue:work --queue=high,default</kbd>
+                                                        to start workers to work async tasks </p></li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">cloud</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Storage</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body"><p>Run <kbd> php artisan storage:link</kbd> to link storage
+                                        to public </p>
+                                        <p>If you need to upload files more than 2 MB (megabytes). Then follow steps to
+                                            increase post request size</p>
+                                        <ol>
+                                            <li><p>Open file <span class="text-yellowish-orange">/etc/php/<code>{PHP_VERSION}</code>/cli/php.ini</span>
+                                            </p>
+                                                <p class="text-muted">Example: If you use php 8.1 then open
+                                                    /etc/php/8.1/cli/php.ini</p></li>
+                                            <li><p>Set following values to whatever you need to be max</p>
+                                                <p class="text-teal"> post_max_size = 6G <br> upload_max_filesize =
+                                                    4G<br> memory_limit = 8G<br></p></li>
+                                            <li><p>Save file as root/administrator</p></li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- end page-wrapper-->
+
+
+                </div>
+
+            </div>
+            <!-- content -->
+            <!-- Footer Start -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <script>document.write(new Date().getFullYear())</script> © Shopy - by Getappui
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="https://shopy-docs.getappui.com/" target="_blank">About</a>
+                                <a href="https://shopy-docs.getappui.com/" target="_blank">Support</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end Footer -->
+
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+</div>
+<!-- END wrapper -->
+
+<script src="assets/js/app.min.js"></script>
+
+</body>
+
+</html>

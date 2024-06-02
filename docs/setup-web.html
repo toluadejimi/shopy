@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Shopy - Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- App css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<!-- Begin page -->
+<div id="wrapper">
+
+    <!-- ============================================================== -->
+    <!-- Start Page Content here -->
+    <!-- ============================================================== -->
+
+    <div class="content-page">
+        <div class="content">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <a href="index.html" class="logo text-center d-none d-md-inline-block mr-2">
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="">
+                        </span>
+                </a>
+
+                <button type="button" class="btn btn-sm btn-dark d-inline-block d-lg-none button-menu-mobile">Menu
+                </button>
+
+                <span class="badge badge-danger float-right">v1.0.0</span>
+            </div>
+            <!-- end Topbar -->
+
+            <!-- Start Content-->
+            <div class="container-fluid">
+
+                <div class="page-wrapper">
+                    <div class="left-sidebar">
+                        <div class="slimscroll-menu">
+                            <div class="list-group list-group-transparent mb-0">
+
+                                    <span class="list-group-item disabled">
+                                        Getting Started
+                                    </span>
+
+                                <a href="index.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-flag-variant-outline"></i>
+                                        </span>Introduction
+                                </a>
+
+
+
+                                <span class="list-group-item disabled">
+                                        Setup
+                                    </span>
+
+                                <a href="setup.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-apps"></i>
+                                        </span>Backend - Laravel
+                                </a>
+
+                                <a href="setup-web.html" class="list-group-item list-group-item-action active">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-web"></i>
+                                        </span>Web - Vue
+                                </a>
+
+
+                                <a href="setup-mobile.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-cellphone"></i>
+                                        </span>App - Flutter
+                                </a>
+
+
+                                <span class="list-group-item disabled">
+                                        Other
+                                    </span>
+
+                                <a href="changelog.html" class="list-group-item list-group-item-action ">
+                                        <span class="mr-2">
+                                            <i class="mdi mdi-book-open-page-variant"></i>
+                                        </span>Changelog
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- end left-sidebar-->
+
+                    <div class="page-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">checklist</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Prerequisites</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><p><span class="fw-medium">Node v14+</span> <span>(If you haven't than install from <a
+                                                    target="_blank" href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>)</span>
+                                            </p></li>
+                                            <li><p><span class="fw-medium">Yarn</span> <span>(If you haven't than install from <a
+                                                    target="_blank"
+                                                    href="https://classic.yarnpkg.com/lang/en/docs/install/">https://classic.yarnpkg.com/lang/en/docs/install/</a>)</span>
+                                            </p></li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">sports_mma</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">How to compile web</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ol>
+                                            <li><p>Open terminal/command prompt at root location of laravel project</p>
+                                            </li>
+                                            <li><p>Run <kbd>yarn</kbd> command</p></li>
+                                            <li><p>Then <kbd>yarn watch</kbd> command to compile assets and watch over
+                                                the assets</p></li>
+                                            <li><p><span class="fw-medium text-info">For Production: </span>Run <kbd>yarn
+                                                production</kbd> to compile all assets to production ready</p></li>
+                                        </ol>
+                                    </div><!----></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">computer</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Firebase Setup on Web</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><p>You need to setup firebase <a href="/setup/firebase"
+                                                                                 class="">Here</a> . Then follow these
+                                                steps </p></li>
+                                            <li><p>In <span class="text-success">firebase console</span>, Add app &amp;
+                                                select web </p></li>
+                                            <li><p>Set app name whatever you want &amp; click on <code>"Register
+                                                app"</code></p></li>
+                                            <li><p>Copy <kbd>const firebaseConfig = { ... }</kbd> part and paste
+                                                following places</p>
+                                                <ul>
+                                                    <li><p><code>public/firebase-messaging-sw.js</code></p></li>
+                                                    <li><p><code>resources/js/firebase.ts</code></p></li>
+                                                </ul>
+                                            </li>
+                                            <li><p>Paste your config to this 2 place &amp; It's done</p></li>
+                                        </ul>
+                                    </div><!----></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-header d-flex align-items-center"><span
+                                            class="material-symbols-rounded"
+                                            style="font-size: 22px; font-weight: 400; margin-right: 9px;">translate</span>
+                                        <h5 class="card-title mb-0 fw-medium"
+                                            style="margin-top: 2px; margin-left: 0px;">Localization
+                                            (Multi-Language)</h5>
+                                        <div class="flex-grow-1"></div>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul>
+                                            <li><p>All localization files you found in
+                                                <kbd>resources/js/services/lang/</kbd></p></li>
+                                            <li><p>If you need to add new language then follow these steps <span>Example - If you adding Hindi (hi) language</span>
+                                            </p>
+                                                <ol>
+                                                    <li><p> Create <span class="text-success">hi.json</span> file at
+                                                        given location. </p></li>
+                                                    <li><p> Add flag of that language at <code>resources/assets/images/flags/</code>
+                                                    </p></li>
+                                                    <li><p> Set new language option at <code>resources/js/shared/mixins/LanguageSelectMixin.ts</code>.
+                                                        There you can find other example also. </p></li>
+                                                </ol>
+                                            </li>
+                                            <li><p>If you need to change any text, then go to <span class="text-rose">{lang}.json</span>
+                                                &amp; change their </p></li>
+                                        </ul>
+                                    </div><!----></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end page-wrapper-->
+            </div>
+
+        </div>
+        <!-- content -->
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <script>document.write(new Date().getFullYear())</script> © Shopy - by Getappui
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-md-right footer-links d-none d-sm-block">
+                            <a href="https://shopy-docs.getappui.com/" target="_blank">About</a>
+                            <a href="https://shopy-docs.getappui.com/" target="_blank">Support</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end Footer -->
+
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page content -->
+    <!-- ============================================================== -->
+</div>
+<!-- END wrapper -->
+
+<!-- bundle -->
+<script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
